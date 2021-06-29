@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewFacturesl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/facture"
+        android:textColor="#000033"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3sp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tcinpassagersalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cin"
+            android:textColor="#000033"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/textcinpassagerfacturesl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000033"
+            android:layout_marginLeft="10dp"
+            android:textSize="9sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="#576D98" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:layout_weight="0.03"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/typesallec"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="@string/typesalle"
+                android:textColor="#000033"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#576D98" />
+
+            <TextView
+                android:id="@+id/texttypesalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:background="#576D98" />
+
+        <LinearLayout
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:layout_weight="0.02"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/nbheuresl"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="@string/nombre_d_heure"
+                android:textColor="#000033"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#576D98" />
+
+            <TextView
+                android:id="@+id/textnbheure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:background="#576D98" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:layout_weight="0.12"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Datereservsl"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="@string/dateres"
+                android:textColor="#000033"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#576D98" />
+
+            <TextView
+                android:id="@+id/textdatereservsl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:background="#576D98" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:layout_weight="0.12"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Prixsallec"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="@string/prixsalle"
+                android:textColor="#000033"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#576D98" />
+
+            <TextView
+                android:id="@+id/textPrixsl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:background="#576D98" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#576D98" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/Totalfacturesl"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/montant_total_ht"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold"
+           />
+
+        <TextView
+            android:id="@+id/textTotalsl"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textTotalsldt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DT"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textTotalsleuro"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textTotalsldollar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#576D98" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textColor="#b0b2b8" >
+
+        <TextView
+            android:id="@+id/totalttcfactsl"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/montant_total_ttc"
+            android:textColor="#000033"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/texttotalttcfactsl"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/texttotalttcfactsldt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DT"
+            android:textColor="#000033"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/texttotalttcfactsleuro"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/texttotalttcfactsldollar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#576D98" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/netapayer"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/netapyer"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textnetpayersl"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textnetpayersldt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DT"
+            android:textColor="#000033"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textnetpayersleuro"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textnetpayersldollar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#576D98" />
+
+    <ImageButton
+        android:id="@+id/paypalfacsalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10sp"
+        android:src="@drawable/paypal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textfactsalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payerfact"
+            android:textColor="#000033"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/buttonpdf2"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:drawableRight="@drawable/pdf"
+            android:text="@string/genererpdf"
+            android:textColor="#000033" />
+    </LinearLayout>
+
+</LinearLayout>

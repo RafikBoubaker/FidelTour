@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       android:orientation="vertical" 
+    android:background="@drawable/bg_offre" >
+
+    <ImageView
+        android:id="@+id/imageoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+  android:layout_marginTop="50dp"
+           android:background="@drawable/bg_blanc"
+           android:orientation="vertical" >
+
+           <LinearLayout
+               android:layout_width="200dp"
+               android:layout_height="240dp"
+               android:layout_gravity="center"
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/bg_blanc_transpmoyen"
+               android:orientation="vertical" >
+
+               <TextView
+                   android:id="@+id/nomoffres"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="10dp"
+                   android:text="Nom Offre :"
+                   android:textColor="#0F357E"
+                   android:textSize="19sp"
+                   android:textStyle="bold" />
+
+               <EditText
+                   android:id="@+id/editTextcin"
+                   android:layout_width="180dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="20dp"
+                   android:background="@drawable/shape_bg"
+                   android:ems="10"
+                   android:hint="@string/cin"
+                   android:textColor="#0F357E" />
+
+               <EditText
+                   android:id="@+id/editTextdateresoff"
+                   android:layout_width="180dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="10dp"
+                   android:background="@drawable/shape_bg"
+                   android:ems="10"
+                   
+                   android:hint="@string/dateress"
+                   android:textColor="#0F357E" />
+
+               <TextView
+                   android:id="@+id/message"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="4dp"
+                   android:layout_marginRight="16dp"
+                   android:textColor="#0F357E" />
+                <TextView
+                   android:id="@+id/textvieweditnb"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+            android:layout_gravity="center"
+                   android:layout_marginTop="10dp"
+                   android:textColor="#0F357E"
+                   android:textSize="15sp"
+                   android:text="@string/nb"
+                   />
+                
+        <Spinner
+            android:id="@+id/editnb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:entries="@array/nbrechoix"
+            android:textColor="#0F357E" />
+           </LinearLayout>
+           
+       </LinearLayout>
+
+        <Button
+            android:id="@+id/btnokreservoffre"
+            android:layout_width="96dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bouton_bg"
+            android:text="@string/okreserver"
+            android:textColor="#ffffff" />
+
+</LinearLayout>

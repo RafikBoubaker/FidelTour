@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewReserv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/textviewreserv"
+        android:textColor="#0F357E"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_blanc_transpmoyen"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/modifier_vos_dates"
+            android:textColor="#0F357E" />
+
+        <EditText
+            android:id="@+id/datearr"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_blanc"
+            android:drawableRight="@drawable/ic_date"
+            android:ems="10"
+            android:hint="@string/dateArrivee"
+            android:textColor="#0F357E" />
+
+        <EditText
+            android:id="@+id/datedep"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_blanc"
+            android:drawableRight="@drawable/ic_date"
+            android:ems="10"
+            android:hint="@string/dateDepart"
+            android:textColor="#0F357E" />
+
+        <TextView
+            android:id="@+id/textViewtypeLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/textviewlog"
+            android:textColor="#0F357E"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTypech1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/typech1"
+            android:textStyle="bold"
+            android:textColor="#0F357E" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTypech2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/typech2"
+            android:textStyle="bold"
+            android:textColor="#0F357E" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTypech3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="@string/typech3"
+           android:textColor="#0F357E" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        style="@style/layout_f_w"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            style="@style/layout_wrap"
+            android:background="#dddddd" >
+
+            <!-- First Tab -->
+
+            <LinearLayout
+                android:id="@+id/first_text"
+                style="@style/layout_f_w"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/text_title"
+                    android:text="Etape 1" />
+            </LinearLayout>
+
+            <!-- Second Tab -->
+
+            <LinearLayout
+                android:id="@+id/second_text"
+                style="@style/layout_f_w"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/text_title"
+                    android:text="Etape 2" />
+            </LinearLayout>
+            <!-- Third Tab -->
+
+            <LinearLayout
+                android:id="@+id/third_text"
+                style="@style/layout_f_w"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/text_title"
+                    android:text="Etape 3" />
+            </LinearLayout>
+            
+        </TableRow>
+    </TableLayout>
+    <!-- Include Tab Indicator -->
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/indicator" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

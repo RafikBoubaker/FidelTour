@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appsrox.instachat.MainActivity" >
+   
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/action_settings"/>
+     
+<item 
+    android:id="@+id/action_listm"
+    android:showAsAction="always"
+    android:icon="@drawable/bt_add"
+    android:title="@string/listm"/> 
+</menu>

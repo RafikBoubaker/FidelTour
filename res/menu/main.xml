@@ -1,0 +1,36 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+      
+      >
+      <item
+        android:id="@+id/action_login"
+        android:icon="@drawable/ic_login"
+        android:showAsAction="always"
+        android:title="@string/action_login"/>
+    <item
+        android:id="@+id/action_overflow"
+        android:icon="@drawable/ic_overflow"
+        android:showAsAction="always"
+        android:title="@string/action_overflow">
+        <menu android:id="@+id/sousmenu" >
+            <item
+                android:id="@+id/action_Contact"
+                android:icon="@drawable/ic_contact"
+                android:showAsAction="never"
+                android:title="@string/action_contact"/>
+        
+            <item
+                android:id="@+id/action_fr"
+                android:icon="@drawable/ic_fr"
+                android:showAsAction="never"
+                android:title="@string/action_fr"/>
+            <item
+                android:id="@+id/action_an"
+                android:icon="@drawable/ic_an"
+                android:showAsAction="never"
+                android:title="@string/action_an"/>
+            </menu>
+    </item>
+
+</menu>
+
+

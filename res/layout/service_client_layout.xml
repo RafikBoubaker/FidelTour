@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/serv"
+        android:textColor="#0F357E"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="250dp"
+        android:layout_height="294dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_blanc_transpmoyen"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonReclamation"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#000033"
+            android:drawableLeft="@drawable/reclamation"
+            android:drawableRight="@drawable/ic_suivant"
+            android:text="@string/reclamation"
+            android:textColor="#868c9c"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonCommande"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#052761"
+            android:drawableLeft="@drawable/menu"
+            android:drawableRight="@drawable/ic_suivant"
+            android:text="@string/commande"
+            android:textColor="#868c9c"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonguide"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#576D98"
+            android:drawableLeft="@drawable/guide"
+            android:drawableRight="@drawable/ic_suivant"
+            android:text="@string/guide"
+            android:textColor="#000033"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonVideo"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#657990"
+            android:drawableLeft="@drawable/video"
+            android:drawableRight="@drawable/ic_suivant"
+            android:text="@string/video"
+            android:textColor="#000033"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

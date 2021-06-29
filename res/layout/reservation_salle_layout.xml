@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewReserv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/textviewreserv"
+        android:textColor="#0F357E"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+         android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_blanc_transpmoyen"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/modifier_vos_dates"
+            android:textColor="#0F357E" />
+
+        <EditText
+            android:id="@+id/jourReserv"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_blanc"
+            android:drawableRight="@drawable/ic_date"
+            android:ems="10"
+            android:hint="@string/jourreserv"
+            android:textColor="#0F357E" />
+
+        <TextView
+            android:id="@+id/textViewtypeSalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/textviewsalle"
+            android:textColor="#0F357E" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTypeSalle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/typesl1"
+            android:textColor="#0F357E"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:padding="2dp" >
+
+            <EditText
+                android:id="@+id/heuredeb1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.27"
+                android:background="@drawable/bg_blanc"
+                android:ems="10"
+                android:hint="@string/heuredebut"
+                android:textColor="#0F357E" />
+
+            <EditText
+                android:id="@+id/heurefin1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.31"
+                android:background="@drawable/bg_blanc"
+                android:ems="10"
+                android:hint="@string/heurefin"
+                android:textColor="#0F357E" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBoxTypeSalle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/typesl2"
+            android:textColor="#0F357E"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:padding="2dp" >
+
+            <EditText
+                android:id="@+id/heuredeb2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.27"
+                android:background="@drawable/bg_blanc"
+                android:ems="10"
+                android:hint="@string/heuredebut"
+                android:textColor="#0F357E" />
+
+            <EditText
+                android:id="@+id/heurefin2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.31"
+                android:background="@drawable/bg_blanc"
+                android:ems="10"
+                android:hint="@string/heurefin"
+                android:textColor="#0F357E" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBoxTypeSalle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/typesl3"
+            android:textColor="#0F357E"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:padding="2dp" >
+
+            <EditText
+                android:id="@+id/heuredeb3"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.27"
+                android:background="@drawable/bg_blanc"
+                android:ems="10"
+                android:hint="@string/heuredebut"
+                android:textColor="#0F357E" />
+
+            <EditText
+                android:id="@+id/heurefin3"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.31"
+                android:background="@drawable/bg_blanc"
+                android:ems="10"
+                android:hint="@string/heurefin"
+                android:textColor="#0F357E" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

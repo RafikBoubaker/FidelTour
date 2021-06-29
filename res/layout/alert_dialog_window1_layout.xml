@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nbrechambre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/nombreCh"
+        android:textColor="#0F357E"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnernwindow1"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/nbrechpens"
+        android:textColor="#0F357E" />
+
+    <TextView
+        android:id="@+id/typepensionwind1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/type_pensions"
+        android:textColor="#0F357E"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_blanc_transpmoyen"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+
+        <CheckBox
+            android:id="@+id/option1window1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Pension1"
+            android:textColor="#0F357E" />
+
+        <Spinner
+            android:id="@+id/spinnertype1window1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:entries="@array/nbrechpens"
+            android:textColor="#0F357E" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_blanc_transpmoyen"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+
+        <CheckBox
+            android:id="@+id/option2window1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Pension2"
+            android:textColor="#0F357E" />
+
+        <Spinner
+            android:id="@+id/spinnertype2window1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="60dp"
+            android:entries="@array/nbrechpens"
+            android:textColor="#0F357E" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_blanc_transpmoyen"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+
+        <CheckBox
+            android:id="@+id/option3window1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Pension3"
+            android:textColor="#0F357E" />
+
+        <Spinner
+            android:id="@+id/spinnertype3window1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:entries="@array/nbrechpens"
+            android:textColor="#0F357E" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonR1"
+        android:layout_width="111dp"
+        android:layout_height="33dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bouton_bg"
+        android:text="@string/buttonvalider"
+        android:textColor="#0F357E" />
+
+    <TextView
+        android:id="@+id/Errortype1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B1221C"
+        android:textStyle="italic" />
+
+</LinearLayout>

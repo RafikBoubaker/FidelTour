@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal" >
+
+        <com.cbw.fideltour.adapter.ImageViewCircle
+            android:id="@+id/imageViewInfo"
+            android:layout_width="206dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/inconnu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_blanc_transpmoyen"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewNom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="#0F357E"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewPrenom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="#0F357E"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#576D98" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/buttonfacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/buttongmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/gmail" />
+
+        <ImageView
+            android:id="@+id/buttontwitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/buttonyoutube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/youtube" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#576D98" />
+
+    <Button
+        android:id="@+id/btServices"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/service_cl"
+        android:drawableRight="@drawable/ic_suivant"
+        android:text="@string/services"
+        android:textColor="#0F357E"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btblog"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/bt_blog"
+        android:drawableRight="@drawable/ic_suivant"
+        android:text="@string/blog"
+        android:textColor="#0F357E"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btinvit"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/bt_add"
+        android:drawableRight="@drawable/ic_suivant"
+        android:text="@string/inviter"
+        android:textColor="#0F357E"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btfacture"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/bt_facture"
+        android:drawableRight="@drawable/ic_suivant"
+        android:text="@string/facture"
+        android:textColor="#0F357E"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btreservation"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/bt_reservation"
+        android:drawableRight="@drawable/ic_suivant"
+        android:text="@string/textviewreserv"
+        android:textColor="#0F357E"
+        android:textSize="17sp" />
+
+</LinearLayout>

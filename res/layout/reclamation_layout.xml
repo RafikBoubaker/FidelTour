@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/reclamation"
+        android:textColor="#0F357E"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_blanc"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_blanc_transpmoyen"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/rec"
+                android:textColor="#0F357E" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/rc"
+                android:textColor="#0F357E" />
+
+<EditText
+    android:id="@+id/editTextnumch"
+    android:layout_width="210dp"
+    android:layout_height="28dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="60dp"
+    android:background="@drawable/renseignement_patch"
+    android:ems="10"
+    android:hint="@string/numero_du_chambre"
+    android:textColor="#0F357E" />
+
+            <EditText
+                android:id="@+id/editTextMessage"
+                android:layout_width="210dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/renseignement_patch"
+                android:ems="10"
+                android:hint="@string/msg"
+                android:textColor="#0F357E" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Buttonannuler"
+            android:layout_width="98dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bouton_bg"
+            android:text="@string/annuler"
+            android:textColor="#0F357E" />
+
+        <Button
+            android:id="@+id/ButtonSend"
+            android:layout_width="98dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="10sp"
+            android:background="@drawable/bouton_bg"
+            android:text="@string/envoyer"
+            android:textColor="#0F357E" />
+    </LinearLayout>
+
+</LinearLayout>

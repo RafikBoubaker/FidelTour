@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+    android:orientation="vertical" >
+<TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/commande"
+        android:layout_gravity="center"
+        android:textStyle="bold" 
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:textColor="#0F357E" />
+    <LinearLayout
+        android:layout_width="304dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_blanc_transpmoyen"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cmd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_blanc"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="246dp"
+            android:layout_height="111dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_blanc_transpmoyen"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heurereception"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="#0F357E" />
+
+            <EditText
+                android:id="@+id/heurecommande"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_bg"
+                android:ems="10"
+                android:hint="@string/heurecmd"
+                android:textColor="#0F357E"
+               />
+        </LinearLayout>
+    </LinearLayout>
+<Button
+                android:id="@+id/buttonValiderCmd"
+                android:layout_width="130dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bouton_bg"
+                android:drawableRight="@drawable/ic_suivant"
+                android:text="@string/buttonsuivant"
+                android:textColor="#0F357E" />
+</LinearLayout>

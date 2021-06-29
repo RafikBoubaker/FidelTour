@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_map"
+        android:icon="@drawable/ic_map"
+        android:showAsAction="always"
+        android:title="@string/action_map"/>
+    <item
+        android:id="@+id/action_overflow2"
+        android:icon="@drawable/ic_overflow"
+        android:showAsAction="always"
+        android:title="@string/action_overflow">
+        <menu android:id="@+id/sousmenu" >
+            <item
+                android:id="@+id/action_fb"
+                android:icon="@drawable/ic_fb"
+                android:showAsAction="never"
+                android:title="@string/action_fb"/>
+            <item
+                android:id="@+id/action_yt"
+                android:icon="@drawable/ic_yt"
+                android:showAsAction="never"
+                android:title="@string/action_yt"/>
+            <item
+                android:id="@+id/action_gm"
+                android:icon="@drawable/ic_gm"
+                android:showAsAction="never"
+                android:title="@string/action_gm"/>
+            <item
+                android:id="@+id/action_tw"
+                android:icon="@drawable/ic_tw"
+                android:showAsAction="never"
+                android:title="@string/action_tw"/>
+        </menu>
+    </item>
+
+</menu>

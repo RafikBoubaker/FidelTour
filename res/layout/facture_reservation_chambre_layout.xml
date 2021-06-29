@@ -1,0 +1,454 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewFacturech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/facture"
+        android:textColor="#000033" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3sp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tcinpassager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cin"
+            android:textColor="#000033"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/textcinpassagerfacture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000033"
+            android:layout_marginLeft="10dp"
+            android:textSize="9sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#576D98" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_weight="0.23"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/typechambrec"
+                android:layout_width="73dp"
+                android:layout_height="36dp"
+                android:text="@string/typechambre"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#576D98" />
+
+            <TextView
+                android:id="@+id/textTypech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:background="#576D98" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/nombrechambrec"
+                android:layout_width="44dp"
+                android:layout_height="36dp"
+                android:text="@string/nbj"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#576D98" />
+
+            <TextView
+                android:id="@+id/textNbch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:background="#576D98" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/dateChambrec"
+                android:layout_width="66dp"
+                android:layout_height="36dp"
+                android:text="@string/dateres"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#576D98" />
+
+            <TextView
+                android:id="@+id/textdatech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:background="#576D98" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/PrixChambrec"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/prixchambree"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#576D98" />
+
+            <TextView
+                android:id="@+id/textPrixch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:background="#576D98" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/prixpensionc"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="@string/prixpension"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#576D98" />
+
+            <TextView
+                android:id="@+id/textPrixpension"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:background="#576D98" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tva"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/tva"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#576D98" />
+
+            <TextView
+                android:id="@+id/textTva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000033"
+                android:textSize="9sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#576D98" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/totalht"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/montant_total_ht"
+            android:textColor="#000033"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textTotalch"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textTotalchdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DT"
+            android:textStyle="bold" 
+            android:textColor="#000033"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textTotalcheuro"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textTotalchdollar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#576D98" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:textColor="#b0b2b8" >
+
+        <TextView
+            android:id="@+id/totalttcfactch"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/montant_total_ttc"
+            android:textColor="#000033"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/texttotalttcfactch"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/texttotalttcfactchdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DT"
+            android:textColor="#000033"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/texttotalttcfactcheuro"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/texttotalttcfactchdollar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#576D98" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/netapayer"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/netapyer"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textNetch"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textNetchdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DT"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textNetcheuro"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textNetchdollar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000033"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textprix"
+        android:textColor="#000033"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/paypalfactch"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_gravity="right"
+        android:src="@drawable/paypal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.40"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textfact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payerfact"
+            android:textColor="#000033"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/buttonpdf1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:drawableRight="@drawable/pdf"
+            android:text="@string/genererpdf"
+            android:textColor="#000033" />
+    </LinearLayout>
+
+</LinearLayout>

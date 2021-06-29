@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/back_ground"
+    android:orientation="vertical" >
+<TextView
+        android:id="@+id/textViewVlid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/validation"
+        android:textColor="#0F357E"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="224dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_blanc_transpmoyen"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <TextView
+            android:id="@+id/textViewInfoSl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/textviewinfo2"
+            android:textSize="15sp"
+          android:textColor="#0F357E" />
+
+        <EditText
+            android:id="@+id/editTextCINSl"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_blanc"
+            android:ems="10"
+            android:hint="@string/cin"
+           android:textColor="#0F357E"/>
+
+        <EditText
+            android:id="@+id/editTextNomSl"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_blanc"
+            android:ems="10"
+            android:hint="@string/nom"
+           android:textColor="#0F357E" />
+
+        <EditText
+            android:id="@+id/editTextPrenomSl"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_blanc"
+            android:ems="10"
+            android:hint="@string/prenom"
+            android:textColor="#0F357E"/>
+
+        <EditText
+            android:id="@+id/editTextMailSl"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_blanc"
+            android:ems="10"
+            android:hint="@string/email"
+            android:textColor="#0F357E"/>
+    </LinearLayout>
+<Button
+            android:id="@+id/buttoncontinuer2"
+           android:layout_width="120dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bouton_bg"
+            android:text="@string/buttonvalider"
+            android:textColor="#0F357E" />
+</LinearLayout>

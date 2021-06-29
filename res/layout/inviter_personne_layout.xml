@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewInviter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/textinvit"
+        android:textColor="#0F357E"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_blanc"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_blanc_transpmoyen"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <EditText
+                android:id="@+id/editcc"
+                android:layout_width="233dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/renseignement_patch"
+                android:ems="10"
+                android:hint="@string/hintcc"
+                android:textColor="#0F357E"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editmail"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/renseignement_patch"
+                android:ems="10"
+                android:paddingLeft="2dp"
+                android:text="@string/invitationPers"
+                android:textColor="#0F357E"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Buttonannuler"
+            android:layout_width="88dp"
+            android:layout_height="33dp"
+            android:background="@drawable/bouton_bg"
+            android:text="@string/annuler"
+            android:textColor="#0F357E" />
+
+        <Button
+            android:id="@+id/buttoninviter"
+            android:layout_width="88dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bouton_bg"
+            android:text="@string/envoyer"
+            android:textColor="#0F357E" />
+    </LinearLayout>
+
+</LinearLayout>

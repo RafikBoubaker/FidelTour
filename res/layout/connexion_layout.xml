@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextviewCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/connexion"
+        android:textColor="#0F357E"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_blanc"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="298dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_blanc_transpmoyen"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <EditText
+                android:id="@+id/editTextlogin"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/shape_bg"
+                android:ems="10"
+                android:hint="@string/email"
+                android:textColor="#0F357E" />
+
+            <EditText
+                android:id="@+id/editTextmdp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_bg"
+                android:ems="10"
+                android:hint="@string/motdepasse"
+                android:inputType="textPassword"
+                android:textColor="#0F357E" />
+
+            <Button
+                android:id="@+id/buttonValider"
+                android:layout_width="130dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bouton_bg"
+                android:text="@string/buttonconnecter"
+                android:textColor="#0F357E" />
+
+            <TextView
+                android:id="@+id/mdpOublie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:linksClickable="true"
+                android:text="@string/motdepasseoublie"
+                android:textColor="#0F357E" />
+
+            <Button
+                android:id="@+id/buttonInscription"
+                android:layout_width="129dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bouton_bg"
+                android:text="@string/inscription"
+                android:textColor="#0F357E" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

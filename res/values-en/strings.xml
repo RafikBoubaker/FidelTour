@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+    <string name="action_guidemap">Map</string>
+    <string name="action_login">action_login</string>
+    <string name="action_overflow">overflow</string>
+    <string name="action_contact">contact</string>
+    <string name="action_devise">devise</string>
+    <string name="action_euro">Euro</string>
+    <string name="action_dollar">Dollar</string>
+    <string name="action_an">anglais</string>
+    <string name="action_fr">francais</string>
+    <string name="dateDepart">Check-out</string>
+    <string name="dateArrivee">Check-in</string>
+    <string name="clickhere">Search</string>
+    <string name="action_map">map</string>
+    <string name="action_fb">facebook</string>
+    <string name="action_tw">twitter</string>
+    <string name="action_gm">google</string>
+    <string name="action_yt">Youtube</string>
+    <string name="connexion">Login</string>
+    <string name="login">Login</string>
+    <string name="motdepasse">  Password</string>
+    <string name="motdepasseoublie">"Forget password ?"</string>
+    <string name="inscription">Register</string>
+    <string name="textview1">Contactez-us</string>
+    <string name="textview2">\t ambassadeurs@topnet.tn</string>
+    <string name="textview3">\t +21671846000</string>
+    <string name="textview4">\t  +21671780042</string>
+    <string name="renseignement">Describe your message </string>
+    <string name="ButtonContinuer">next</string>
+    <string name="annuler">Cancel</string>
+    <string name="select">Select</string>
+    <string name="radiobuttonsl">Salle de conférence</string>
+    <string name="radiobuttonch">Chambre</string>
+    <string name="buttonsuivant">Next</string>
+    <string name="jourreserv">Date of reservation</string>
+    <string name="typech1">Chambre double superieure</string>
+    <string name="typech2">Chambre simple superieure</string>
+    <string name="typech3">Suite junior</string>
+    <string name="textviewinf">Book faster by logging</string>
+    <string name="buttonconnecter">Login</string>
+    <string name="textviewinfo2">Please enter your information</string>
+    <string name="sexe">Sexe</string>
+    <string name="homme">Mal</string>
+    <string name="femme">Female</string>
+    <string name="mot_de_passe_">Password</string>
+    <string name="bienvenue">Welcome</string>
+    <string name="adresseh">Address</string>
+    <string name="confmot_de_passe">Confirm password</string>
+    <string name="buttoncontinuer">Continue</string>
+    <string name="textviewlog">Please enter the type of rooms</string>
+    <string name="textviewreserv">Booking</string>
+    <string name="disponibilit">availability</string>
+    <string name="textviewdis">availability Rooms</string>
+    <string name="textviewdiss">availability Salle</string>
+    <string name="contactinfo">Contact Info </string>
+    <string name="textviewsend">Information :</string>
+    <string name="cin">CIN / Passeport:</string>
+    <string name="prenom">First name</string>
+    <string name="nom">Name</string>
+    <string name="email">E-mail</string>
+    <string name="numero_telephoneh">Phone number</string>
+    <string name="heuredebut">Start time</string>
+    <string name="heurefin">End time</string>
+    <string name="textviewsalle">Please enter the type of rooms</string>
+    <string name="typesl1">Salle pleniere Carthage</string>
+    <string name="typesl2">Salle de commission Amilcar</string>
+    <string name="typesl3">Salle de commission Hannibal</string>
+    <string name="buttonvalider">Validate</string>
+    <string name="typesalle">type of room:</string>
+    <string name="reserver">Book</string>
+    <string name="prix">Price (dt):</string>
+    <string name="delaisOffre">delay:</string>
+    <string name="okreserver">OK</string>
+    <string name="dateres">Date of booking</string>
+    <string name="tva">TVA</string>
+    <string name="nvelle_offre">New offer</string>
+    <string name="reserver_offre">Book offer</string>
+
+    <string-array name="typePension">
+        <item>Pension complète</item>
+        <item>Demi-pension</item>
+        <item>Petit-déjeuner</item>
+    </string-array>
+
+    <string name="changetime">Set</string>
+    <string name="facture">invoice</string>
+    <string name="numch">Number room:</string>
+    <string name="message">Message:</string>
+    <string name="envoyer">Send</string>
+    <string name="lieucmd"> Place of Receipt</string>
+    <string name="heurecmd"> time of Receipt</string>
+
+    <string-array name="nbrechoix">
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3</item>
+        <item> 4</item>
+        <item> 5</item>
+        <item> 6</item>
+        <item> 7</item>
+        <item> 8</item>
+        <item> 9</item>
+        <item> 10</item>
+    </string-array>
+
+    <string name="lieunaissance"> Place of birth</string>
+    <string name="datenaissance">Date of birth</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Nav Drawer Menu Items -->
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/bt_reservation</item>
+        <item>@drawable/ic_date</item>
+    </array>
+
+    <string name="services">services</string>
+    <string name="inviter">Invite</string>
+    <string name="blog">Chat</string>
+    <string name="facture">Invoice</string>
+    <string name="typechambre">Type Rooms</string>
+    <string name="nombreCh">Veuillez entrer le nombre des chambres</string>
+    <string name="prixchambre">Price Rooms</string>
+    <string name="prixsalle">Price Salle</string>
+    <string name="prixtvachambre">Price Rooms(TVA)</string>
+    <string name="prixtvasalle">Price Salle(TVA)</string>
+    <string name="pension">Pension</string>
+    <string name="prixpension">Price Pension</string>
+    <string name="prixtvapension">Price Pension (TVA)</string>
+    <string name="prixreservation">Price booking</string>
+    <string name="total">Total</string>
+    <string name="netapyer">Net pay</string>
+    <string name="credit">credit</string>
+    <string name="textinvit">Add friends</string>
+    <string name="cc">cc:</string>
+    <string name="hintcc">Enter your friend\'s email address</string>
+    <string name="historique">My booking</string>
+    <string name="nbj">Number of days</string>
+    <string name="resch">Invoice booking rooms</string>
+    <string name="textprix">All price with TVA (12%)</string>
+    <string name="ressalle">Invoice booking salle</string>
+    <string name="factsej">Invoice stays</string>
+    <string name="Num">Number</string>
+    <string name="nomsouscateg">Name subcategory</string>
+    <string name="nombre">Number</string>
+    <string name="factoffre">Invoice offer</string>
+    <string name="nomoff">Name offer</string>
+    <string name="changer">Change</string>
+    <string name="changermotdepasse">Change Password</string>
+    <string name="Pension1">Pension complete</string>
+    <string name="Pension2">Demi-pension</string>
+    <string name="Pension3">Petit-dejeuner</string>
+    <string name="type_pensions">Type pensions des chambres</string>
+    <string name="clientPaypal">Already a member</string>
+    <string name="ouvrircompte">Open an account PayPal</string>
+    <string name="lien">www.paypal.com</string>
+    <string name="payerfact">Notre cher client, vous pouvez télécharger votre facture et la payer à l\'hôtel</string>
+    <string name="telecharger">Télécharger</string>
+    <string name="typechambreh">Type rooms :</string>
+    <string name="tva">TVA :</string>
+    <string name="prixch">Price Rooms :</string>
+    <string name="prixsl">Prix Salle :</string>
+    <string name="prixtvach">Price Rooms (TVA) :</string>
+    <string name="prixtvasl">Price Salle (TVA) :</string>
+    <string name="nbch">Number of rooms:</string>
+    <string name="genererpdf">Generate PDF</string>
+    <string name="historique">My booking</string>
+    <string name="resch">Invoice booking rooms</string>
+    <string name="textprix">All prices with TVA (12%)</string>
+    <string name="factsej">Invoice stays</string>
+    <string name="factcmd">Invoice order</string>
+
+    <string-array name="nbrechpens">
+        <item> 0</item>
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3</item>
+        <item> 4</item>
+        <item> 5</item>
+        <item> 6</item>
+        <item> 7</item>
+        <item> 8</item>
+        <item> 9</item>
+        <item> 10</item>
+    </string-array>
+
+    <string name="ressalle">Invoice booking salle</string>
+
+    <string-array name="titles">
+        <item>La Tunisie</item>
+        <item>Patrimoines</item>
+        <item>Culture Tunisiennes</item>
+        <item>Capitale</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/sud</item>
+        <item>@drawable/patrimoine</item>
+        <item>@drawable/theatre</item>
+        <item>@drawable/tradition</item>
+    </array>
+
+    <string name="guide">Guide</string>
+    <string name="commande">Order</string>
+    <string name="video">Video</string>
+    <string name="reclamation">Complaint</string>
+    <string name="veuillez_entrer_vos_dates">Please enter your dates</string>
+    <string name="chercher_disponibilit_">Search availability</string>
+    <string name="modifier_vos_dates">Please change your dates</string>
+    <string name="nouveautilisateur">new user</string>
+    <string name="nbre">Number rooms</string>
+    <string name="numfacture">Number :</string>
+    <string name="rens">For further information</string>
+    <string name="facture_video">Invoice video</string>
+    <string name="prix_video">Price video</string>
+    <string name="date_commande">date order</string>
+    <string name="date_consultation">Date consultation</string>
+    <string name="rec">We handle all your claims.</string>
+    <string name="msg">"Your message "</string>
+    <string name="rc">You have a complaint</string>
+    <string name="montant_total_ht">Amount total HT</string>
+    <string name="montant_total_ttc">Amount total TTC</string>
+    <string name="prix_offre">Price offer</string>
+    <string name="prix_ligne">Price line</string>
+    <string name="validation">Validation</string>
+    <string name="serv">Client services</string>
+    <string name="invitationPers">Yours sincerely, I invite you to Ambassadors Hotel is located in the center of Tunis, near the medina and a quarter of time Tunis Carthage airport and the port of La Goulette. \n address: 75 Avenue Taieb M\'Hiri, Belvedere, 1002 Tunis\n Tel: +216 71846000</string>
+    <string name="heurereception">Please enter the \ time of receipt</string>
+    <string name="nombre_d_heure">Number of hours</string>
+    <string name="numero_du_chambre">Number of room</string>
+    <string name="numero_du_chambre">Number of room</string>
+    <string name="nb">Quantity</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="load_directions">load_directions</string>
+    <string name="recherche">Search</string>
+    <string name="pref_title_server_url">Settings</string>
+    <string name="pref_title_sender_id">Settings</string>
+    <string name="action_add">action-add</string>
+    <string name="pref_header_messaging">pref_header_messaging</string>
+    <string name="prixchambree">Price \n of room</string>
+    <string name="listm">listm</string>
+    <string name="chercher_votre_destination">Search your destination</string>
+    <string name="distance_">"Distance : "</string>
+    <string name="dur_e_">"Duration : "</string>
+
+</resources>

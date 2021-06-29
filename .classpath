@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ABS"/>
+	<classpathentry exported="true" kind="lib" path="libs/picasso-2.2.0.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/google-play-services_lib"/>
+	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/droidText.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/gson-2.2.4-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/gson-2.2.4-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/gson-2.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/PayPalAndroidSDK.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/roundedimageview-1.3.0-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-http-client-1.18.0-rc.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-http-client-android-1.18.0-rc.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-http-client-jackson2-1.18.0-rc.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-core-2.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

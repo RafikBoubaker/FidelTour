@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cbw.fideltour"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <permission
+        android:name="com.cbw.fideltour.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.cbw.fideltour.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <permission
+        android:name="com.cbw.fideltour.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.cbw.fideltour.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.cbw.fideltour.activity.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.cbw.fideltour.activity.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:name="com.cbw.fideltour.instachat.Common"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cbw.fideltour.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cbw.fideltour.activity.ContactActivity" />
+        <activity android:name="com.cbw.fideltour.activity.MainActivityReservationChambreDrawer" />
+        <activity android:name="com.cbw.fideltour.activity.ConnexionActivity" />
+        <activity android:name="com.cbw.fideltour.activity.RegisterActivity" />
+        <activity android:name="com.cbw.fideltour.map.MapContactActivity" />
+        <activity android:name="com.cbw.fideltour.activity.MainActivityReservationSalleDrawer" />
+        <activity android:name="com.cbw.fideltour.activity.PartieClientActivity" />
+        <activity android:name="com.cbw.fideltour.activity.ReservationOffreActivity" />
+        <activity android:name="com.cbw.fideltour.activity.ReclamationActivity" />
+        <activity android:name="com.cbw.fideltour.activity.ServiceClientActivity" />
+        <activity android:name="com.cbw.fideltour.activity.InviterPersonneActivity" />
+        <activity android:name="com.cbw.fideltour.activity.HistoriqueReservationActivity" />
+        <activity android:name="com.cbw.fideltour.activity.ConsulterFacturesActivity" />
+        <activity android:name="com.cbw.fideltour.activity.PasswordResetActivity" />
+        <activity android:name="com.cbw.fideltour.activity.PaiementPaypalActivity" />
+        <activity android:name="com.cbw.fideltour.activity.VideoListeActivity" />
+        <activity android:name="com.cbw.fideltour.activity.GuideMapActivity" />
+        <activity android:name="com.cbw.fideltour.activity.MainActivityBasaDeConnaissance" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity android:name="com.cbw.fideltour.instachat.AfficahgeListMailActivity" />
+        <activity android:name="com.cbw.fideltour.instachat.ChatActivity" />
+        <activity android:name="com.cbw.fideltour.instachat.MainActivityChat" />
+        <activity android:name="com.cbw.fideltour.instachat.DemoActivity" />
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+        <activity android:name="com.cbw.fideltour.activity.NouvelleOffreActivity" />
+        <activity android:name="com.cbw.fideltour.activity.CommandeActivity" />
+        <activity android:name="com.cbw.fideltour.activity.MenuCommandeActivity" />
+        <activity android:name="com.cbw.fideltour.activity.FactureReservationChambreActivity" />
+        <activity android:name="com.cbw.fideltour.activity.FactureReservationSalleActivity" />
+        <activity android:name="com.cbw.fideltour.map.MainActivityMap" />
+        <activity android:name="com.cbw.fideltour.map.PlacesAutoCompleteActivity" />
+
+        <receiver
+            android:name="com.cbw.fideltour.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.cbw.fideltour" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.cbw.fideltour.gcm.GcmIntentService" />
+
+        <receiver
+            android:name="com.cbw.fideltour.instachat.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.cbw.fideltour.instachat" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.cbw.fideltour.instachat.SettingsActivity" >
+        </activity>
+
+        <provider
+            android:name="com.cbw.fideltour.instachat.DataProvider"
+            android:authorities="com.cbw.fideltour.chat.provider"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBUNHVoy0IF8G4FVd0KolGFXZbCkIbLAcw" />
+    </application>
+
+</manifest>
